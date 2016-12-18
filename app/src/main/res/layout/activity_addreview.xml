@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_addreview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kinbee.yaowarat.AddReviewActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@color/colorPrimaryDark"
+        android:minHeight="?attr/actionBarSize" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal|top"
+        android:background="#fff2ed"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <!--</LinearLayout>-->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <EditText
+                    android:id="@+id/edtName"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_margin="10dp"
+                    android:padding="15dp"
+                    android:textColor="@color/accent_color"
+                    android:layout_gravity="center_horizontal"
+                    android:background="#fff"
+                    android:hint=" ชื่อร้าน"
+                    android:textColorHint="@color/colorPrimaryDark"
+                    android:imeOptions="actionNext"
+                    android:singleLine="true" />
+
+                <EditText
+                    android:id="@+id/edtPrice"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_margin="10dp"
+                    android:padding="15dp"
+                    android:textColor="@color/accent_color"
+                    android:layout_gravity="center_horizontal"
+                    android:background="#fff"
+                    android:hint=" ราคา"
+                    android:textColorHint="@color/colorPrimaryDark"
+                    android:imeOptions="actionNext"
+                    android:singleLine="true" />
+
+                <EditText
+                    android:id="@+id/edtOpent"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_margin="10dp"
+                    android:padding="15dp"
+                    android:textColor="@color/accent_color"
+                    android:layout_gravity="center_horizontal"
+                    android:background="#fff"
+                    android:hint=" เวลาเปิดปิด"
+                    android:textColorHint="@color/colorPrimaryDark"
+                    android:imeOptions="actionNext"
+                    android:singleLine="true" />
+
+                <EditText
+                    android:id="@+id/edtLocation"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_margin="10dp"
+                    android:padding="15dp"
+                    android:textColor="@color/accent_color"
+                    android:layout_gravity="center_horizontal"
+                    android:background="#fff"
+                    android:hint=" ที่อยู่ร้าน"
+                    android:textColorHint="@color/colorPrimaryDark"
+                    android:imeOptions="actionNext"
+                    android:singleLine="true" />
+
+
+                <EditText
+                    android:id="@+id/edtReview"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_margin="10dp"
+                    android:padding="15dp"
+                    android:textColor="@color/accent_color"
+                    android:layout_gravity="center_horizontal"
+                    android:background="#fff"
+                    android:hint=" ที่อยู่ร้าน"
+                    android:textColorHint="@color/colorPrimaryDark"
+                    android:imeOptions="actionNext"
+                    android:singleLine="true" />
+
+
+
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="0dp"-->
+                <!--android:gravity="center"-->
+                <!--android:layout_weight="1"-->
+                <!--android:weightSum="2"-->
+                <!--android:padding="@dimen/padding_logo_x1"-->
+                <!--android:orientation="horizontal">-->
+
+
+                <!--<Button-->
+                    <!--android:id="@+id/cancelButton"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:padding="@dimen/space_x1"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="@dimen/textFieldHeightSignUp"-->
+                    <!--android:layout_marginLeft="@dimen/button_size_medium"-->
+                    <!--android:background="#747676"-->
+                    <!--android:text="ยกเลิก" />-->
+
+
+                <!--<Button-->
+                    <!--android:id="@+id/okButton"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:padding="@dimen/space_x1"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="@dimen/textFieldHeightSignUp"-->
+                    <!--android:layout_marginRight="@dimen/button_size_medium"-->
+                    <!--android:background="#f7751e"-->
+                    <!--android:text="ตกลง" />-->
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
